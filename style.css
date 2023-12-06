@@ -67,6 +67,27 @@ picture, svg {
 
 /* ------------------- */
 
+:root {
+
+/* Color variables */
+    --clr-dark: #1F2937;
+    --clr-whiteA: #F9FAF8;
+    --clr-whiteB: #E5E7EB;
+    --clr-lightblue: #3882F6;
+
+/* Size variables */
+    --sizes-s: 1.125rem; /*18px*/
+    --sizes-base: 1.5rem; /*24px*/
+    --sizes-l: 2.25rem; /*36px*/
+    --sizes-xl: 3rem; /*48px*/
+
+/* Font variables */
+    --font-weight-light: 300;
+    --font-weight-reg: 400;
+    --font-weight-extrabold: 900;
+
+}
+
 /* General Styling */
 
 *{
@@ -105,3 +126,4 @@ button {
     background: none;
     cursor: pointer;
 }
+
