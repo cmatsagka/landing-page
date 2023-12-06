@@ -101,17 +101,17 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: aquamarine;
-    color: black;
+    background-color: var(--clr-whiteA);
+    color: var(--clr-dark);
 }
 
 a {
-    color: blue;
+    color: var(--clr-lightblue);
 }
 
 strong {
-    color: blueviolet;
-}
+    color: var(--clr-dark);
+  }
 
 img, video, canvas, svg, picture {
     display: block;
@@ -122,8 +122,8 @@ img, video, canvas, svg, picture {
 button {
     display: inline-block;
     padding: 0;
-    border: none;
-    background: none;
+    border: 1px;
+    background: var(--clr-lightblue);
     cursor: pointer;
 }
 
