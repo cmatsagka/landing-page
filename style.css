@@ -128,5 +128,62 @@ button {
     cursor: pointer;
 }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--clr-dark);
+}
+
+.header_logo {
+  flex: 1;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
+  font-size: var(--sizes-base);
+  font-weight: var(--font-weight-reg);
+  color: var(--clr-whiteA);
+  letter-spacing: -0.01em;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+.header_link {
+  font-size: var(--sizes-s);
+  text-decoration: none;
+  font-weight: var(--font-weight-light);
+  color: var(--clr-whiteB);
+  letter-spacing: -0.05em;
+  transition: color 0.3s;
+}
+
+.header_link:hover {
+  color: var(--clr-lightblue);
+}
+
+/* Utility classes */
+
+.container {
+  width: 100%
+  margin-inline: auto;
+}
+
+.section {
+  margin-top: 10rem;
+}
+
+
+
+
+
 
 
