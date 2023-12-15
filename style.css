@@ -106,7 +106,7 @@ body {
 }
 
 a {
-    color: var(--clr-lightblue);
+    color: var(--clr-whiteB);
 }
 
 strong {
@@ -124,6 +124,9 @@ button {
     padding: 0;
     border: 1px;
     background: var(--clr-lightblue);
+    color: var(--clr-whiteB);
     cursor: pointer;
 }
+
+
 
