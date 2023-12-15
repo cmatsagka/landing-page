@@ -170,7 +170,43 @@ button {
   color: var(--clr-lightblue);
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 3rem;
+  background-color: var(--clr-dark);
+}
 
+.hero_title {
+  color: var(--clr-whiteA);
+  font-size: var(--sizes-xl);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+  text-align: left;
+  max-width: 50%;
+}
+
+.hero_text {
+  color: var(--clr-whiteB);
+  font-size: var(--sizes-s);
+  font-weight: var(--font-weight-light);
+  line-height: 0.9;
+  max-width: 45ch;
+  text-align: left;
+}
+
+.hero_button {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.hero_image {
+  align-self: flex-end;
+}
 
 /* Utility classes */
 
