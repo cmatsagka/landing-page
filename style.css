@@ -133,15 +133,12 @@ button {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
   background-color: var(--clr-dark);
 }
 
 .header_logo {
-  flex: 1;
   align-items: center;
-  padding: 0;
   text-decoration: none;
   font-size: var(--sizes-base);
   font-weight: var(--font-weight-reg);
@@ -151,9 +148,9 @@ button {
 
 .header_menu {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
-  padding: 0;
   gap: 1.5rem;
 }
 
@@ -172,10 +169,16 @@ button {
 
 .hero {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 3rem;
   background-color: var(--clr-dark);
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .hero_title {
@@ -184,7 +187,6 @@ button {
   font-weight: var(--font-weight-extrabold);
   letter-spacing: -0.05em;
   line-height: 0.9;
-  text-align: left;
 }
 
 .hero_text {
@@ -192,27 +194,28 @@ button {
   font-size: var(--sizes-s);
   font-weight: var(--font-weight-light);
   line-height: 0.9;
-  max-width: 45ch;
-  text-align: left;
+  max-width: 60ch;
 }
 
 .hero_button {
   width: 7rem;
   height: 2rem;
-  border-radius: 5px;
+  border-radius: 7.5px;
 }
 
 .hero_image {
-  align-self: flex-end;
+  justify-self: center;
 }
+
+
 
 /* Utility classes */
 
 .container {
   width: 100%;
   margin-inline: auto;
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .section {
