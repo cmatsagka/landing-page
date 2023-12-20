@@ -275,7 +275,23 @@ button {
   padding-right: 5rem;
 }
 
+.callaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: var(--clr-lightblue);
+  border: 3px solid red;
+}
 
+.callaction_header {
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--sizes-s);
+}
+
+.callaction_text {
+  font-size: var(--sizes-s);
+  font-weight: var(--font-weight-light);
+}
 
 
 /* Utility classes */
