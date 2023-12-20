@@ -169,7 +169,7 @@ button {
 
 .hero {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 3rem;
   background-color: var(--clr-dark);
 }
@@ -185,7 +185,7 @@ button {
   color: var(--clr-whiteA);
   font-size: var(--sizes-xl);
   font-weight: var(--font-weight-extrabold);
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
   line-height: 0.9;
 }
 
@@ -207,6 +207,48 @@ button {
   justify-self: center;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.information_title {
+  font-size: var(--sizes-l);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--clr-dark);
+  letter-spacing: -0.025em;
+}
+
+.information_show {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.information_showPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 0.25rem;
+}
+
+.information_image {
+  border: 3px solid var(--clr-lightblue);
+  border-radius: 10%;
+}
+
+.information_text {
+  text-align: center;
+  font-size: var(--sizes-s);
+  font-weight: var(--font-weight-light);
+  letter-spacing: -0.025em;
+}
 
 
 /* Utility classes */
