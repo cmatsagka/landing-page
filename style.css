@@ -250,6 +250,33 @@ button {
   letter-spacing: -0.025em;
 }
 
+.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: var(--clr-whiteB);
+}
+
+.quote_text {
+  font-size: var(--sizes-l);
+  font-weight: var(--font-weight-light);
+  font-style: italic;
+  color: var(--clr-dark);
+  letter-spacing: -0.025em;
+  max-width: 60ch;
+  padding: 3rem 3rem 0rem 3rem;
+}
+
+.quote_sign {
+  align-self: flex-end;
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: -0.025em;
+  padding-right: 5rem;
+}
+
+
+
 
 /* Utility classes */
 
