@@ -297,7 +297,15 @@ button {
   text-align: center;
 }
 
-
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--clr-dark);
+  color: var(--clr-whiteB);
+  font-size: var(--sizes-s);
+  font-weight: var(--font-weight-light);
+}
 
 
 /* Utility classes */
