@@ -286,16 +286,23 @@ button {
 .cta_text {
   color: var(--clr-whiteA);
   font-size: var(--sizes-s);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: -0.005em;
+}
+
+.cta_light {
   font-weight: var(--font-weight-light);
-  letter-spacing: -0.025em;
 }
 
 .cta_button {
-  border: 1px solid var(--clr-whiteA);
+  border: 2px solid var(--clr-whiteA);
   width: 7rem;
   height: 2rem;
   border-radius: 7.5px;
-  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  font-weight: var(--font-weight-reg);
 }
 
 .footer {
@@ -314,17 +321,10 @@ button {
 .container {
   width: 100%;
   margin-inline: auto;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-right: 20rem;
+  padding-left: 20rem;
 }
 
 .section {
   margin-top: 10rem;
 }
-
-
-
-
-
-
-
