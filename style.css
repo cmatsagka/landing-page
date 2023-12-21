@@ -236,7 +236,7 @@ button {
 
 .information_image {
   border: 3px solid var(--clr-lightblue);
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .information_text {
@@ -280,6 +280,7 @@ button {
   justify-content: space-around;
   padding: 1.5rem;
   background-color: var(--clr-lightblue);
+  border-radius: 10px;
 }
 
 .cta_text {
