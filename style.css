@@ -109,10 +109,6 @@ a {
     color: var(--clr-whiteB);
 }
 
-strong {
-    color: var(--clr-dark);
-  }
-
 img, video, canvas, svg, picture {
     display: block;
     max-width: 100%;
@@ -275,29 +271,33 @@ button {
   padding-right: 5rem;
 }
 
-.callaction {
+.cta {
+  padding: 3rem;
+}
+
+.cta_frame {
   display: flex;
-  justify-content: space-between;
-  padding: 3rem;
-  border: 3px solid red;
+  justify-content: space-around;
+  padding: 1.5rem;
+  background-color: var(--clr-lightblue);
 }
 
-.callaction_text {
-  padding: 3rem;
-  background-color: var(--clr-lightblue); 
-  font-weight: var(--font-weight-extrabold);
-  font-size: var(--sizes-s);
+.cta_text {
   color: var(--clr-whiteA);
-}
-
-.callaction_button {
-  border: 1px solid var(--clr-whiteA);
-}
-
-/* .callaction_text {
   font-size: var(--sizes-s);
   font-weight: var(--font-weight-light);
-} */
+  letter-spacing: -0.025em;
+}
+
+.cta_button {
+  border: 1px solid var(--clr-whiteA);
+  width: 7rem;
+  height: 2rem;
+  border-radius: 7.5px;
+  text-align: center;
+}
+
+
 
 
 /* Utility classes */
