@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-.placeholder-rectangle {
-  width: 100px;
-  height: 100px;
-  border: 2px solid blue;
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
-
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -60,7 +52,45 @@ li {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 8px 16px;
+    padding: 4px 24px;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+}
+
+.sct1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.showcase {
+    display: flex;
+    gap: 24px;
+    color: #1F2937;
+    padding: 16px;
 }
 
 
+.placeholder-rectangle {
+  width: 125px;
+  height: 125px;
+  border: 2px solid #3882F6;
+  border-radius: 16px;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    width: 150px;
+}
