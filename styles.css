@@ -94,3 +94,20 @@ button {
     gap: 8px;
     width: 150px;
 }
+
+.sct2 {
+    background-color: #E5E7EB;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.ref {
+    margin-left: auto;
+}
