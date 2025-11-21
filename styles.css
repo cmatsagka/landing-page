@@ -17,7 +17,7 @@ body {
     background-color: #1F2937;
     display: flex;
     height: 48px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     border: 2px solid red;
     padding: 8px 144px;
@@ -25,7 +25,7 @@ body {
 
 .header-logo {
     color: #F9FAF8;
-    /* margin-right: auto; */
+    margin-right: auto;
 }
 
 ul {
@@ -57,6 +57,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    flex-basis: 450px;
     border: 2px solid red;
 }
 
@@ -69,6 +70,7 @@ h1 {
 .hero-sub {
     color: #E5E7E8;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 button {
@@ -79,16 +81,54 @@ button {
     border-radius: 8px;
 }
 
+.info-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 8px 144px;
+    border: 2px solid red;
+}
+
+.info-h {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.showcase {
+    display: flex;
+    border: 2px solid red;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.info-txt {
+    border: 2px solid red;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 150px;
+}
+ 
 .placeholder-rectangle {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 2px solid blue;
   border-radius: 16px;
-  margin-bottom: 20px;
 }
+
+
 
 .footer {
     color: #E5E7E8;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: auto;
 }
