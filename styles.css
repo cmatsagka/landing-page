@@ -9,7 +9,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }
 
 .header {
@@ -70,6 +69,7 @@ button {
 
 .sct1 {
     padding: 16px 96px;
+    flex: 1;
 }
 
 .info-header {
@@ -125,6 +125,10 @@ button {
     padding: 36px 76px;
     margin: 48px 96px;
     border-radius: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-cta {
