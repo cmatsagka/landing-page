@@ -126,6 +126,7 @@ button {
     justify-content: center;
     padding: 8px 144px;
     background-color: #E5E7E8;
+    align-items: center;
 }
 
 .quote {
@@ -134,11 +135,12 @@ button {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
+    width: 66vw;
 }
 
 .refer {
-    padding: 8px 198px;
-    align-self: flex-end;
+    width: 42vw;
+    text-align: end;
 }
 
 .cta-sect {
