@@ -52,6 +52,14 @@ ul {
     border: 2px solid red;
 }
 
+.hero-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid red;
+}
+
 h1 {
     color: #F9FAF8;
     font-size: 48px;
