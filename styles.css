@@ -125,7 +125,33 @@ button {
   border-radius: 16px;
 }
 
+.quote-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 8px 144px;
+    background-color: #E5E7E8;
+    border: 2px solid red;
+}
 
+.quote {
+    padding: 8px 198px;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    border: 2px solid red;
+}
+
+.refer {
+    
+    padding: 8px 198px;
+    align-self: flex-end;
+    border: 2px solid red;
+
+}
 
 .footer {
     color: #E5E7E8;
