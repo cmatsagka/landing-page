@@ -126,11 +126,10 @@ button {
 }
 
 .quote-sect {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex: 1;
     padding: 8px 144px;
     background-color: #E5E7E8;
     border: 2px solid red;
@@ -146,11 +145,17 @@ button {
 }
 
 .refer {
-    
     padding: 8px 198px;
     align-self: flex-end;
     border: 2px solid red;
+}
 
+.cta-sect {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 144px;
 }
 
 .footer {
