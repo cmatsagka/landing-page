@@ -9,6 +9,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: aqua;
 }
 
 .header {
@@ -35,6 +36,7 @@ li {
     font-size: 18px;
 }
 
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -60,10 +62,13 @@ button {
     border: 1px solid #3882F6;
 }
 
-.sct1 {
+.main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex: 1;
+}
+
+.sct1 {
     padding: 16px 96px;
 }
 
@@ -101,8 +106,7 @@ button {
 .sct2 {
     background-color: #E5E7EB;
     padding: 16px 96px;
-    display: flex;
-    flex-direction: column;
+    flex: 1;
 }
 
 .quote {
@@ -116,7 +120,6 @@ button {
 }
 
 .sct3 {
-    display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 36px 76px;
