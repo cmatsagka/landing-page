@@ -10,6 +10,23 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    color: #E5E7E8;
+    display: flex;
+    gap: 24px;
+}
+
 .placeholder-rectangle {
   width: 100px;
   height: 100px;
