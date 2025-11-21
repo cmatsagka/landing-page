@@ -52,6 +52,25 @@ ul {
     border: 2px solid red;
 }
 
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-sub {
+    color: #E5E7E8;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
 .placeholder-rectangle {
   width: 100px;
   height: 100px;
