@@ -17,13 +17,15 @@ body {
     background-color: #1F2937;
     display: flex;
     height: 48px;
+    justify-content: space-between;
     align-items: center;
+    border: 2px solid red;
     padding: 8px 144px;
 }
 
 .header-logo {
     color: #F9FAF8;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 ul {
@@ -37,9 +39,17 @@ ul {
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 8px 144px;
     border: 2px solid red;
     background-color: aquamarine;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+    padding: 8px 144px;
+    background-color: #1F2937;
+    border: 2px solid red;
 }
 
 .placeholder-rectangle {
@@ -52,6 +62,6 @@ ul {
 
 .footer {
     color: #E5E7E8;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: auto;
 }
