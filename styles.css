@@ -32,6 +32,12 @@ ul {
     gap: 24px;
 }
 
+.main {
+    display: flex;
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+
 .placeholder-rectangle {
   width: 100px;
   height: 100px;
